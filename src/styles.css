@@ -1,0 +1,209 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#viewprofile:hover {
+  color: red;
+}
+#viewprofile {
+  color: gray;
+}
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  transform-origin: bottom right;
+  transition: transform 0.4s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#th {
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: black;
+  font-size: 23px;
+  text-underline-offset: 9px;
+}
+#hr {
+  border-top: 1px dotted;
+}
+#maintd2 {
+  width: 70%;
+  vertical-align: top;
+  padding-left: 30px;
+}
+#maintd1 {
+  vertical-align: top;
+  width: 30%;
+}
+#rightInsideLeftTd {
+  vertical-align: top;
+  width: 25%;
+  padding-right: 10px;
+}
+#rightSecondTable {
+  width: 80%;
+}
+#subjectTaught {
+  vertical-align: top;
+}
+#areaAndSubjectDetail {
+  color: grey;
+}
+#ul {
+  list-style: none;
+}
+#li::before {
+  content: "\2022";
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.qualification {
+  border: 1px solid lightgray;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  color: grey;
+}
+#heading {
+  background-color: #f2f2f2;
+  border: 1px solid lightgray;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+.container .image {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: relative;
+  top: 100%;
+  left: 120px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 24px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: left;
+  padding-right: 30px;
+}
+.about {
+  margin: 10px;
+}
+.button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  width: 150px;
+}
+.button:hover {
+  background-color: #f1f1f1;
+}
+.contactbuttons {
+  background-color: #f2f2f2;
+  border: 1px solid lightgrey;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 5px;
+  padding-inline: 10px;
+}
+.contactbuttons:hover {
+  background-color: red;
+  color: white;
+}
+.contactbuttonsmain {
+  background-color: red;
+
+  border: 1px solid darkred;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px 2px;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 5px;
+  padding-inline: 10px;
+}
+.contactbuttonsmain:hover {
+  background-color: grey;
+}
+#contactform {
+  padding: 18px;
+  border: 1px solid black;
+  background-color: #f2f2f2;
+}
+#para {
+  font-size: 14px;
+  font-style: italic;
+  color: gray;
+}
+.homeManubutton {
+  background-color: #0000006c;
+  border: 0px solid rgba(194, 193, 193, 0.116);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+
+  padding: 23px;
+  padding-inline: 10px;
+  width: 100%;
+}
+.homeManubutton:hover {
+  background-color: red;
+  color: white;
+}
+.gs {
+  text-decoration: none;
+  color: black;
+}
+.gs:hover {
+  color: red;
+}
+.g {
+  text-decoration: none;
+  color: red;
+}
+.g:hover {
+  color: black;
+}
